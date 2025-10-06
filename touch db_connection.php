@@ -3,7 +3,7 @@
 
 $servername = "localhost";
 $username = "root"; // TU USUARIO DE MYSQL
-$password = "123456";     // TU CONTRASEÑA DE MYSQL (vacío en XAMPP/WAMP por defecto)
+$password = "";     // TU CONTRASEÑA DE MYSQL (vacío en XAMPP/WAMP por defecto)
 $dbname = "clinica_db";
 
 // Crear conexión
