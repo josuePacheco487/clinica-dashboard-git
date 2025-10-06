@@ -26,6 +26,7 @@ $userRole = $_SESSION['user_role'];
             <p class="text-sm text-gray-400 mb-4">Bienvenido, <?php echo $userName; ?> (<?php echo $userRole; ?>)</p>
             <ul>
                 <li class="mb-2"><a href="dashboard.php" class="block p-2 rounded bg-gray-700">Inicio</a></li>
+                <li class="mb-2"><a href="pacientes.php" class="block p-2 rounded hover:bg-gray-700">Pacientes</a></li>
                 <li class="mb-2"><a href="logout.php" class="block p-2 rounded hover:bg-red-700 bg-red-500">Cerrar Sesión</a></li>
             </ul>
         </aside>
@@ -33,6 +34,7 @@ $userRole = $_SESSION['user_role'];
             <h1 class="text-3xl font-bold text-gray-800 mb-8">Resumen General</h1>
             <p class="text-gray-600">Este dashboard ahora está protegido por login y sesiones. Módulos y métricas serán implementados a continuación.</p>
         </main>
+        
     </div>
 </body>
 </html>

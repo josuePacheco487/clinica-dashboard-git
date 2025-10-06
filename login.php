@@ -3,7 +3,7 @@
 
 session_start();
 // Incluye la conexión a la DB
-include('db_connection.php');
+include('touch db_connection.php');
 
 $error = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
