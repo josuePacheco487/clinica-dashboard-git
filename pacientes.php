@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit;
 }
-include('db_connection.php');
+include('touch db_connection.php');
 
 // Lógica de AGREGAR PACIENTE (CREATE)
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['add_paciente'])) {
